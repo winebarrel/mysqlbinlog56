@@ -2,7 +2,7 @@
 %define mysql_release rc
 %define _unpackaged_files_terminate_build 0
 
-Name:           mysqlbinlog
+Name:           mysqlbinlog56
 Version:        %{mysql_version}
 Release:        %{mysql_release}%{?dist}
 Summary:        Dumps a MySQL binary log in a format usable for viewing or for piping to the mysql command line client.
